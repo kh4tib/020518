@@ -1,0 +1,154 @@
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* main header styles */
+.header {
+    width: 100%;
+    height: 100%;
+}
+
+.header-content {
+    width: 60%;
+    height: 6rem;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-logo {
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+}
+.header-content nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.heart-icon svg {
+    fill:#fff;
+    width: 1rem;
+    height: 1rem;
+    padding: .35rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    vertical-align: middle;
+    transition: 300ms ease-in-out;
+}
+
+.heart-icon svg:hover {
+    fill:#e74c3c;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* aside styles */
+
+aside {
+    width:4rem;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+    background-color:#ffffff;
+}
+
+.aside-content {
+    height: 95%;
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 3rem;
+}
+
+/* main section styles */
+
+.main-section {
+width: 100%;
+height: calc(100% - 6rem);
+overflow: hidden;
+overflow: hidden;
+}
+
+.main-content {
+    width: 60%;
+    margin: auto;
+    height: calc(100% - 6rem);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.main-header {
+    width: 40%;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.main-subheader {
+    width: 40%;
+    margin-bottom: 1.5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 1.25rem;
+    color: #fff;
+}
+
+.main-button {
+    width: 12rem;
+    height: 3rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    outline: none;
+    border: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    color: #333;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.main-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -5
+}
+.main-image img {
+    position: absolute;
+    height: 100%
+    /* left: 4rem; */
+    z-index: -2;
+    /* transform: scaleX(-1); */
+}
